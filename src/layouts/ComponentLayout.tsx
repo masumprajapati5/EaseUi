@@ -21,6 +21,7 @@ const ComponentLayout = ({}: Props) => {
     "Layout",
   ];
 
+  // component layout 
   return (
     <div className="flex min-h-screen min-w-0 overflow-x-hidden bg-(--bg-color) text-(--text-color)">
       {sidebarOpen && (

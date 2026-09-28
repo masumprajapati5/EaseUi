@@ -1,6 +1,7 @@
 import gsap from "gsap";
 
 export const entranceAnimations = {
+  // gsap animations
   fadeIn: (el: HTMLElement) =>
     gsap.fromTo(el, { opacity: 0 }, { opacity: 1, duration: 0.8 }),
   scaleIn: (el: HTMLElement) =>
