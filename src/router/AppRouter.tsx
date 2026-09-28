@@ -14,6 +14,7 @@ import LayoutPage from "@/pages/components/LayoutPage";
 type Props = {};
 
 const AppRouter = ({}: Props) => {
+  // router
   const router = createBrowserRouter([
     {
       path: "/",
